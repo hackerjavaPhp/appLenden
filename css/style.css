@@ -1,0 +1,126 @@
+/*plan
+	
+
+	1.default
+    
+    2.::after, ::before;
+
+	3.header
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+/*1.default*/
+.container
+{
+	width: 960px;
+	margin:0 auto;
+}
+
+
+
+
+
+
+
+
+/*2.::after, ::before;*/
+.headerAppLanden-caption-ipad-list::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+/*3.header*/
+#headerAppLand
+{
+	background: url(../img/bg-header.jpg) 100% 100% no-repeat;
+	background-size: cover;
+}
+
+.headerAppLanden
+{
+	background: #5284a1;
+}
+
+.headerAppLandWrapper
+{
+	height: 850px;
+    background: url(../img/ipad.png) 235.4px 141px no-repeat;
+
+}
+
+.headerAppLanden-caption 
+{
+    font-family: 'Leckerli One', cursive;
+    color: #fff;
+    font-size: 71.87px;
+    text-align: center;
+    padding-top: 42px;
+    text-shadow: 2px 5px 0px #51676e;
+}
+
+.headerAppLanden-caption-ipad 
+{
+    height: 441px;
+    background:red;
+    background-size: cover;
+    width: 340px;
+    margin: 113px auto;
+    border-radius: 1px;
+    overflow: hidden;
+}
+
+.headerAppLanden-caption-ipad-list
+{
+    background: #ddd;
+    width: 680px;
+    height: 100%;
+    position: relative;
+    left: 0;
+    transition: all .5s;
+}
+
+.headerAppLanden-caption-ipad-list-bg
+{
+    height: 100%;
+    width: 340px;
+    float: left;
+    background: red;
+}
+
+.headerAppLanden-caption-ipad-list-link:first-child .headerAppLanden-caption-ipad-list-bg
+{
+    background: url(../img/girls.jpg) no-repeat;
+    background-size: cover;
+}
+
+.headerAppLanden-caption-ipad-list-link:last-child .headerAppLanden-caption-ipad-list-bg
+{
+    background: url(../img/girl.jpg) no-repeat;
+    background-size: cover;
+}
+
+.play
+{
+    display: block;
+    margin: 187px auto 0 auto
+}
