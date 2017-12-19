@@ -9,6 +9,8 @@
 
     4. bestTemplate 
 
+    5.contents
+
 
 */
 
@@ -41,7 +43,9 @@ body
 
 
 /*2.::after, ::before;*/
-.headerAppLanden-caption-ipad-list::after
+.headerAppLanden-caption-ipad-list::after , 
+.contents::after ,
+.contents-disign::after
 {
     content: "";
     display: block;
@@ -178,10 +182,95 @@ body
 {
     text-align: center;
     margin-top: 47px;
+    padding-bottom: 68px;
+    background: url(../img/line.png) 73px bottom no-repeat;
 }
 
 .bestTemplate-b-links-link
 {
     display: inline-block;
     margin: 0 4px;
+}
+
+
+
+
+
+
+
+
+/*5. contents*/
+.contents
+{
+    padding-top: 52px;
+}
+
+.contents-delicious-show , 
+.contents-disign-info
+{
+    float: left;
+}
+
+.contents-delicious-info
+{
+    float: right;
+    max-width: 445px;
+    margin-top: 159px;
+    margin-right: 24px;
+}
+
+.contents-delicious-caption ,
+.contents-disign-caption
+{
+    font-size: 51.34px;
+    font-weight: bold;
+    color: #39414c;
+}
+
+.contents-delicious-captionMini ,
+.contents-disign-captionMini
+{
+    font-size: 29.34px;
+    color: #6a6a6a;
+    margin-top: 6px;
+}
+
+.contents-delicious-description ,
+.contents-disign-description
+{
+    font-size: 19.34px;
+    margin-top: 24px;
+    margin-left: 2px;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+}
+
+.contents-delicious-captionMini ,
+.contents-delicious-description ,
+.contents-disign-description
+{
+    color: #6a6a6a;
+}
+
+.contents-disign-show
+{
+    float: right;
+    margin-right: 33px;
+}
+
+.contents-disign-info
+{
+    max-width: 434px;
+    margin-left: 10px;
+    margin-top: 140px;
+}
+
+.contents-disign
+{
+    margin-top: 184px;
+}
+
+.contents-disign-captionMini
+{
+    width: 457px;
 }
