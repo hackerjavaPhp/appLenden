@@ -1,0 +1,352 @@
+/*plan
+	
+
+	1.default
+    
+    2.::after, ::before;
+
+	3.header
+
+    4. bestTemplate 
+
+    5.contents ...
+
+    6.contents-twitter
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+/*1.default*/
+body
+{
+    font-family: arial, sans-serif;
+}
+
+.container
+{
+	width: 960px;
+	margin:0 auto;
+}
+
+
+
+
+
+
+
+
+/*2.::after, ::before;*/
+.headerAppLanden-caption-ipad-list::after , 
+.contents::after ,
+.contents-disign::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+/*3.header*/
+#headerAppLand
+{
+	background: url(../img/bg-header.jpg) 100% 100% no-repeat;
+	background-size: cover;
+}
+
+.headerAppLanden
+{
+	background: #5284a1;
+}
+
+.headerAppLandWrapper
+{
+	height: 850px;
+    background: url(../img/ipad.png) 235.4px 141px no-repeat;
+
+}
+
+.headerAppLanden-caption 
+{
+    font-family: 'Leckerli One', cursive;
+    color: #fff;
+    font-size: 71.87px;
+    text-align: center;
+    padding-top: 42px;
+    text-shadow: 2px 5px 0px #51676e;
+}
+
+.headerAppLanden-caption-ipad 
+{
+    height: 441px;
+    background:red;
+    background-size: cover;
+    width: 340px;
+    margin: 113px auto;
+    border-radius: 1px;
+    overflow: hidden;
+}
+
+.headerAppLanden-caption-ipad-list
+{
+    background: #ddd;
+    width: 680px;
+    height: 100%;
+    position: relative;
+    left: 0;
+    transition: all .5s;
+}
+
+.headerAppLanden-caption-ipad-list-bg
+{
+    height: 100%;
+    width: 340px;
+    float: left;
+    background: red;
+}
+
+.headerAppLanden-caption-ipad-list-link:first-child .headerAppLanden-caption-ipad-list-bg
+{
+    background: url(../img/girls.jpg) no-repeat;
+    background-size: cover;
+}
+
+.headerAppLanden-caption-ipad-list-link:last-child .headerAppLanden-caption-ipad-list-bg
+{
+    background: url(../img/girl.jpg) no-repeat;
+    background-size: cover;
+}
+
+.play
+{
+    display: block;
+    margin: 187px auto 0 auto
+}
+
+
+
+
+
+
+
+
+
+/*4.bestTemplate*/
+.bestTemplate-caption
+{
+    font-size: 51.34px;
+    font-weight: bold;
+    text-align: center;
+    color: #39414c;
+    margin-top: 51px;
+}
+
+.bestTemplate-captionMini
+{
+    font-size: 33.34px;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.bestTemplate-description 
+{
+    text-align: center;
+    max-width: 830px;
+    margin: 0 auto;
+    font-size: 21.34px;
+    letter-spacing: -1px;
+    word-spacing: 4px;
+    margin-top: 34px;
+}
+
+.bestTemplate-captionMini,
+.bestTemplate-description
+{
+    color: #6a6a6a;
+}
+
+.bestTemplate-b-links
+{
+    text-align: center;
+    margin-top: 47px;
+    padding-bottom: 68px;
+}
+
+.bestTemplate-b-links-link
+{
+    display: inline-block;
+    margin: 0 4px;
+}
+
+
+
+
+
+
+
+
+/*5. contents*/
+.contents
+{
+    padding-top: 52px;
+    padding-bottom: 73px;
+}
+
+.contents-disign
+{
+    padding-top: 111px;
+    padding-bottom: 79px;
+}
+
+.contents-disign ,
+.contents ,
+.contents-twitter
+{
+    background: url(../img/line.png) center top no-repeat;
+}
+
+
+.contents-delicious-show , 
+.contents-disign-info
+{
+    float: left;
+}
+
+.contents-delicious-info
+{
+    float: right;
+    max-width: 445px;
+    margin-top: 159px;
+    margin-right: 24px;
+}
+
+.contents-delicious-caption ,
+.contents-disign-caption
+{
+    font-size: 51.34px;
+    font-weight: bold;
+    color: #39414c;
+}
+
+.contents-delicious-captionMini ,
+.contents-disign-captionMini
+{
+    font-size: 29.34px;
+    color: #6a6a6a;
+    margin-top: 6px;
+}
+
+.contents-delicious-description ,
+.contents-disign-description
+{
+    font-size: 19.34px;
+    margin-top: 24px;
+    margin-left: 2px;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+}
+
+.contents-delicious-captionMini ,
+.contents-delicious-description ,
+.contents-disign-description
+{
+    color: #6a6a6a;
+}
+
+.contents-disign-show
+{
+    float: right;
+    margin-right: 33px;
+}
+
+.contents-disign-info
+{
+    max-width: 434px;
+    margin-left: 10px;
+    margin-top: 140px;
+}
+
+.contents-disign-captionMini
+{
+    width: 457px;
+}
+
+
+
+
+
+
+
+
+
+
+/*6.contents-twitter*/
+
+
+.contents-twitter-b-image ,
+.contents-twitter-description
+{
+    text-align: center;
+}
+
+.contents-twitter-b-image ,
+.contents-twitter-description
+{
+    padding-top: 48px;
+}
+
+.contents-twitter-image ,
+.contents-twitter-button-tw
+{
+    color: #00aced;
+}
+
+.contents-twitter-image
+{
+    font-size: 53px;
+}
+
+.contents-twitter-button-tw
+{
+    font-size: 11px;
+}
+
+.contents-twitter-description
+{
+    color: #6a6a6a;
+    font-size: 25.34px;
+    font-family: Georgia;
+    letter-spacing: -1px;
+    width: 780px;
+    margin:  0 auto
+}
+
+.contents-twitter-description a
+{
+    text-decoration: none;
+    color: #3a7dbc;
+}
+
+.contents-twitter-button 
+{
+    height: 18px;
+    font-size: 9px;
+    border-radius: 3px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+}
